@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "fatherName": {
+      "type": "string"
+    },
+    "grades": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "age": {
+      "type": "number"
+    },
+    "class": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "firstName",
+    "lastName",
+    "fullName",
+    "fatherName",
+    "grades",
+    "age",
+    "class"
+  ]
+}
